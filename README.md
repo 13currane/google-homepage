@@ -1,0 +1,1 @@
+This is my attempt at cloning the google homepage. This project demonstrates some of the skills I have acquired in css and html while working the odin project curriculum.
