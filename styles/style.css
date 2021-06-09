@@ -1,0 +1,39 @@
+html {
+    background-color: #ffffff;
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+  header {
+    position: relative;
+    top: 0;
+    height: 50px;
+    border: 3px solid green;
+    width: 100%;
+  }
+  body {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    border: 3px solid blue;
+    height: 100%;
+
+  }
+  img {
+    display: block;
+    margin: 0 auto;    
+  }
+  footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+  }
+  input{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 75%;
+    height: 30px;
+    border: 2px solid #f2f2f2;
+  }
