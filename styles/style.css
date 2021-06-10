@@ -1,12 +1,12 @@
 html {
     background-color: #ffffff;
-    font-size: 17px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
   }
   header {
     position: relative;
     top: 0;
-    height: 100px;
+    height: 65px;
     width: 100%;
     
     display: flex;
@@ -22,36 +22,27 @@ html {
 
   }
   img {
+    position: relative;
+    bottom: 0;
     display: block;
-    margin: 0 auto; 
-    padding: 10px;  
-    width: 450px;
-    height: auto; 
+    margin: 0 auto;  
+    width: 272px;
+    height: auto;# 
   }
   footer{
     background-color: #f2f2f2;
-    position: absolute;
-    bottom: 0;
-    height: 175px;
+    position: relative;
+    max-height: 175px;
     width: 100%;
   }
   input{
     display: block;
     position: relative;
     margin: auto;
-    height: 50px;
+    height: 40px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
-    width: 600px;
-  }
-
-  .header-text {
-    margin: 8px;
-  }
-
-  #main{
-    position: relative;
-    top: 70px;
+    width: 450px;
   }
 
   a {
@@ -61,7 +52,7 @@ html {
 
     .material-icons-rounded{
     font-family: Material Icons, serif;
-    font-size: 40px;
+    font-size: 35px;
     color:#868686;
     text-decoration: none;
     margin: 15px;
@@ -82,13 +73,51 @@ html {
     align-items: center;
     margin-left: 30px;
  }
-  #coutry-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+ #footer-box-1 { 
+   justify-content: flex-start;
+   min-width: 30vw;
  }
- #footer-box-1 {
+
+ #footer-box-2 {
+   min-width: 30vw;
+ }
+
+ #footer-box-3 {
+   justify-content: flex-end;
+   min-width: 30vw;
+ }
+
+ #main {
    position: relative;
+   min-height: 92px;
+   max-height: 290 px;
+   height: calc(100%- 560px);
+   flex-shrink: 0;
+ }
+
+ #gaeilge {
+   flex-grow: 1;
+   box-sizing: border-box;
+ }
+ #everything{
    display: flex;
-   background-color: teal;
+   flex-direction: column;  
+   height: 100%; 
+ }
+ #footer-content{
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+ .footer-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 
+ }
+
+ .header-text{
+   padding: 12px;
  }
