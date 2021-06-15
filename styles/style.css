@@ -56,6 +56,8 @@ html {
     color:#868686;
     text-decoration: none;
     margin: 15px;
+    text-decoration: none !important;
+
 }
 
 .material-icons-outlined{
@@ -100,9 +102,11 @@ html {
    position: relative;
    max-height: 290px;
    min-height: 92px;
+   width: 100%;
    flex-direction: row;
    justify-content: center;
    align-items: flex-end;
+   flex-grow: 1;
  }
  #everything{
    display: flex;
@@ -155,8 +159,9 @@ html {
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-
+  cursor: pointer;
 }
+
 #grow-space{
   display: flex;
   justify-content: center;
@@ -169,4 +174,8 @@ html {
 }
 .blue-text{
   color: #3700ff;
+}
+
+.hover-shadow:hover {
+  box-shadow: 10px 0px 8px #888888;
 }
