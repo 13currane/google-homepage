@@ -1,1 +1,1 @@
-This is my attempt at cloning the google homepage. This project demonstrates some of the skills I have acquired in css and html while working the odin project curriculum.
+The first project assigned from The Odin Project. I used my knowledge of html and css to clone the appearance of the home page of the Google search engine.
